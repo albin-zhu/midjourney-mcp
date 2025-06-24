@@ -1,5 +1,5 @@
-import { Midjourney } from "midjourney";
-import sharp from "sharp";
+import { Midjourney } from "npm:midjourney";
+import sharp from "npm:sharp";
 import { homedir } from "node:os";
 
 const salaiToken = Deno.env.get("SALAI_TOKEN") || "";

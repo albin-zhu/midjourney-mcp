@@ -1,6 +1,6 @@
-import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import { z } from "zod";
+import { McpServer } from "npm:@modelcontextprotocol/sdk/server/mcp.js";
+import { StdioServerTransport } from "npm:@modelcontextprotocol/sdk/server/stdio.js";
+import { z } from "npm:zod";
 import { generateImage } from "./tools/mj.ts";
 
 const server = new McpServer({
